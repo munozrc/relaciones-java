@@ -6,6 +6,13 @@ public class Vehiculo {
     private String empresa;
     private String color;
 
+    public Vehiculo(String nombre, String placa, String empresa, String color) {
+        this.nombre = nombre;
+        this.placa = placa;
+        this.empresa = empresa;
+        this.color = color;
+    }
+
     public String getNombre() {
         return nombre;
     }
